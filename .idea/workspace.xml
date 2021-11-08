@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa29e9da-241e-4ec8-8f8b-f04de3c409c0" name="Changes" comment="" />
+    <list default="true" id="fa29e9da-241e-4ec8-8f8b-f04de3c409c0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops/develop_infraestructure/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/devops/develop_infraestructure/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Button.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/Nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/atoms/SelectBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layouts/Container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/molecules/QuestionBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +31,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
   <component name="ProjectId" id="20PGuJInevRHE7HUd1HxFpLI1By" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -25,8 +44,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -34,10 +55,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/atoms" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/devops/develop_infraestructure" />
+      <recent name="$PROJECT_DIR$/devops" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -50,6 +76,14 @@
       <option name="presentableId" value="Default" />
       <updated>1635939033385</updated>
       <workItem from="1635939036563" duration="1323000" />
+      <workItem from="1635945007607" duration="21961000" />
+      <workItem from="1636156214764" duration="4987000" />
+      <workItem from="1636313167502" duration="26000" />
+      <workItem from="1636313206727" duration="488000" />
+      <workItem from="1636313851531" duration="364000" />
+      <workItem from="1636314225548" duration="302000" />
+      <workItem from="1636314537257" duration="1364000" />
+      <workItem from="1636374959610" duration="13000" />
     </task>
     <servers />
   </component>
@@ -66,5 +100,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

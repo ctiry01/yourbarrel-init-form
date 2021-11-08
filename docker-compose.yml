@@ -1,0 +1,10 @@
+version: "2"
+services:
+  frontendbuild:
+    build: devops/develop_infraestructure
+    volumes:
+      - .:/app
+    command: '/run.sh'
+    ports:
+      - "3000:3000"
+    container_name: yourbarrel_node
