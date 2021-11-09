@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import styled from 'styled-components'
 import Container from './components/layouts/Container'
 import Nav from './components/atoms/Nav'
-import { welcomeQuestions, freelancer, initStep, freelanceStep, themeParkStep, tirolina, tirolinaStep, agencyStep, ziplineStep, extremeSportsStep, eventsStep, otherStep } from './data/questions'
+import { welcomeQuestions, freelance, initStep, freelanceStep, agency, zipline, extreme_sports, events, theme_park, other } from './data/questions'
 import QuestionBox from './components/molecules/QuestionBox'
 import CustomInput from './components/atoms/CustomInput'
 import Button from './components/atoms/Button'
@@ -32,11 +32,11 @@ function App() {
         }
     }
 
-    const renderAnwers = () => {
-        while (objectIndex <= Object.keys(freelancer).length) {
+    const renderAnwers = (object) => {
+        while (objectIndex <= Object.keys(object).length) {
             return (
                 <>
-                    <CustomInput label={freelancer[objectIndex]} responseOut={(res) => setAnswers({ ...answers, [freelancer[objectIndex]]: res }) & setBufferInputValue(res)}
+                    <CustomInput label={object[objectIndex]} responseOut={(res) => setAnswers({ ...answers, [object[objectIndex]]: res }) & setBufferInputValue(res)}
                         value={bufferInputValue}
                         onKeyPress={event => handleNextWithKey(event) & setError(false)}
                         error={error}
@@ -62,13 +62,13 @@ function App() {
             <InnerWrapper>
                 <Container>
                     {Object.keys(answers).length < 1 && <QuestionBox questions={welcomeQuestions} onPress={(answer) => setAnswers({ ...answers, [initStep]: answer })} />}
-                    {answers[initStep] === freelanceStep && renderAnwers()}
-                    {answers[initStep] === agencyStep && renderAnwers()}
-                    {answers[initStep] === ziplineStep && renderAnwers()}
-                    {answers[initStep] === extremeSportsStep && renderAnwers()}
-                    {answers[initStep] === eventsStep && renderAnwers()}
-                    {answers[initStep] === themeParkStep && renderAnwers()}
-                    {answers[initStep] === otherStep && renderAnwers()}
+                    {answers[initStep] === 'freelance' && renderAnwers(freelance)}
+                    {answers[initStep] === "agency" && renderAnwers(agency)}
+                    {answers[initStep] === "zipline" && renderAnwers(zipline)}
+                    {answers[initStep] === "extreme_sports" && renderAnwers(extreme_sports)}
+                    {answers[initStep] === "events" && renderAnwers(events)}
+                    {answers[initStep] === "theme_park" && renderAnwers(theme_park)}
+                    {answers[initStep] === "other" && renderAnwers(other)}
                 </Container>
             </InnerWrapper>
         </>

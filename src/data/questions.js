@@ -8,7 +8,7 @@ export const welcomeQuestions = {
     "other": "Otro",
 };
 
-export const freelancer = {
+export const freelance = {
     1: "Nombre y apellidos",
     2: "Correo electrónico",
     3: "Teléfono de contacto",
@@ -24,7 +24,7 @@ export const agency = {
 };
 
 export const zipline = {
-    1: "Nombre comercial de la tirolina",
+    1: "Nombre comercial de la tirolina o parque de aventura",
     2: "Nombre y apellidos de la persona de contacto",
     3: "Correo electrónico",
     4: "Teléfono de contacto",
@@ -66,11 +66,4 @@ export const other = {
     6: "Disponibilidad horaria",
 };
 
-export const initStep = 'welcomeQuestions';
-export const freelanceStep = 'freelance';
-export const agencyStep = "agency";
-export const ziplineStep = 'zipline';
-export const extremeSportsStep = "extreme_sports";
-export const eventsStep = "events";
-export const themeParkStep = 'theme_park';
-export const otherStep = "other";
+export const initStep = 'welcome';
