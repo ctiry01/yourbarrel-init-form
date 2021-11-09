@@ -34,7 +34,7 @@ const Wrapper = styled.div`
 `;
 
 QuestionBox.propTypes = {
-    questions: PropTypes.array,
+    questions: PropTypes.object,
     onPress: PropTypes.func
 }
 

@@ -15,6 +15,7 @@ const Wrapper = styled.button`
   padding: ${(props) => props.padding}px calc(${(props) => props.padding}px * 3);
   border-radius: ${(props) => props.radius}px;
   color: rgb(255, 255, 255);
+  font-weight: bold;
   border-color: transparent;
   background-color: rgb(75, 129, 232);
 
